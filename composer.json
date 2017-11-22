@@ -1,12 +1,12 @@
 {
-    "name": "davahome/self-update",
+    "name": "davahome/github-php-api",
     "license": "gpl",
     "require": {
         "php": ">=5.4"
     },
     "autoload": {
         "psr-4": {
-            "DavaHome\\SelfUpdate\\": "src/DavaHome/SelfUpdate/"
+            "DavaHome\\GithubApi\\": "src/DavaHome/GithubApi/"
         }
     }
 }
