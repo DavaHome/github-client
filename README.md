@@ -1,20 +1,22 @@
-# self-update
+# github-php-api
 
-Provides functionality for implementing a github api based self-update functionality (for private repositories)
+Provides functionality for communication with the github using php.
+
+A possible usage of this is the implementation a github api based self-update functionality (for private repositories)
 
 # Installation
 
 ```bash
-php composer.phar require davahome/self-update
+php composer.phar require davahome/github-php-api
 ```
 
 
 # Usage
 
 ```php
-use DavaHome\SelfUpdate\AssetFileDownloader;
+use DavaHome\GithubApi\AssetFileDownloader;
 
-$assetFileDownloader = new AssetFileDownloader('davahome', 'self-update', '<TOKEN>');
+$assetFileDownloader = new AssetFileDownloader('davahome', 'github-api', '<TOKEN>');
 
 // Display some release information (optional)
 $releaseInformation = $assetFileDownloader->getReleaseInformation();

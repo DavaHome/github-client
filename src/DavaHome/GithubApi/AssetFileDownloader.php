@@ -1,6 +1,6 @@
 <?php
 
-namespace DavaHome\SelfUpdate;
+namespace DavaHome\GithubApi;
 
 class AssetFileDownloader
 {
