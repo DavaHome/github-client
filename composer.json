@@ -1,5 +1,5 @@
 {
-    "name": "davahome/github-php-api",
+    "name": "davahome/github-client",
     "license": "gpl",
     "require": {
         "php": ">=5.4",
@@ -7,7 +7,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DavaHome\\GithubApi\\": "src/DavaHome/GithubApi/"
+            "DavaHome\\Github\\": "src/DavaHome/Github/"
         }
     }
 }
